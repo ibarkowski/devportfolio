@@ -34,7 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+//$base-color: #3498db;
+$base-color: #ef403b;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -258,12 +259,13 @@ footer {
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        border: 3px solid lighten($text, 25%);
+        border: 3px solid lighten($base-color, 25%);
         text-align:center;
+        background: #ef403b;
     }
 
     i {
-        color: $text;
+        color: #ffff;
     }
 }
 
@@ -294,15 +296,16 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: #ffff;
+    background: $base-color;
     padding: 15px 25px;
     border: 3px solid #fff;
     border-radius: 30px;
     @include transition();
 
     &:hover {
-        color: $base-color;
-        background: #fff;
+        color: #ffff;
+        background: lighten($base-color, 25%);
         text-decoration: none;
     }
 }
@@ -369,18 +372,18 @@ footer {
     }
 
     h1 {
-        color: #fff;
+        color: #ef403b;
         font-weight: 900;
-        font-size: 5em;
+        font-size: 3em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: #ef403b;
         font-weight: 500;
-        font-size: 2.25em;
+        font-size: 1.25em;
         margin-bottom: 15px;
     }
 }
@@ -393,7 +396,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    //background: rgba($base-color-hover, 0.8);
     z-index: 1;
 }
 
@@ -407,6 +410,7 @@ footer {
     bottom: 15px;
     color: #fff;
 
+
     span {
         cursor: pointer;
         display: block;
@@ -416,6 +420,7 @@ footer {
         border-radius: 50%;
         border: 3px solid lighten($base-color, 25%);
         text-align:center;
+        background: $base-color;
     }
 
     i {
@@ -730,7 +735,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $base-color;
+    background: #f2f2f5;
     text-align: center;
 
     h2 {
