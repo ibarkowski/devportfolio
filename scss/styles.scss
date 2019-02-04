@@ -46,8 +46,8 @@ $background-alt: #f2f2f5;
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #464646;
+$text: #374054;
 
 /*
     ---------------------
@@ -359,7 +359,7 @@ footer {
     overflow: hidden;
 }
 
-#lead-content {
+#typed-strings {
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -372,7 +372,7 @@ footer {
     }
 
     h1 {
-        color: #ef403b;
+        color: #464646;
         font-weight: 900;
         font-size: 3em;
         text-transform: uppercase;
@@ -383,8 +383,10 @@ footer {
     h2 {
         color: #ef403b;
         font-weight: 500;
-        font-size: 1.25em;
+        font-size: 1.3em;
         margin-bottom: 15px;
+        margin-top: 15px;
+        text-transform: uppercase;
     }
 }
 
@@ -418,7 +420,7 @@ footer {
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        border: 3px solid lighten($base-color, 25%);
+        border: 3px solid #ffff;
         text-align:center;
         background: $base-color;
     }
@@ -520,7 +522,7 @@ footer {
 
     h3 {
         font-size: 1.5em;
-        font-weight: 300;
+        font-weight: 400;
         color: $heading;
         display: inline-block;
         margin: 0;
@@ -942,6 +944,7 @@ footer {
     #lead-content {
         h1 {
             font-size: 2em;
+
         }
 
         h2 {

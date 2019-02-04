@@ -47,9 +47,10 @@
     <!-- End header -->
 
     <div id="lead">
-        <div id="lead-content">
+        <div id="typed-strings">
             <h1>Igor&nbsp;Barkowski</h1>
-            <h2>Application Performance Engineer</h2>
+            <h2><span class="typed"></span>
+            </h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -266,6 +267,19 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+<script>
+    var options = {
+        strings: ["Application Performance Engineer", "Application Administrator", "Technical Leader", "Team Manager"],
+        typeSpeed: 130,
+        loop: true,
+        smartBackspace: false
+    }
+
+    var typed = new Typed(".typed", options);
+</script>
+
 </body>
 
 </html>
