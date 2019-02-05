@@ -520,6 +520,7 @@ footer {
     border-radius: 3px;
     text-align: left;
 
+
     h3 {
         font-size: 1.5em;
         font-weight: 400;
@@ -540,6 +541,11 @@ footer {
         font-size: 0.9em;
         margin: 0;
     }
+}
+
+.vtimeline-logo {
+        background-position: right center;
+        background-repeat: no-repeat;
 }
 
 .vtimeline-point {
